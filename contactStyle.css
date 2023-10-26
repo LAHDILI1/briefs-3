@@ -1,0 +1,155 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#sectionId {
+background: rgba(1, 184, 165, 0.87);
+  width: 100%;
+ padding-bottom: 100px;
+  padding-top: 100px;
+}
+#sectionId h1 {
+  text-align: center;
+}
+#sectionId form {
+    width: 100%;
+  text-align: center;
+ 
+}
+#sectionId form h5 {
+  text-align: left;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.parent .childe {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parent .childe .inpt{
+    display: flex;
+    flex-direction: column;
+  }
+.parent .childe h5 {
+  padding: 40px 5px 10px 5px;
+}
+#sectionId h5 sup {
+  color: red;
+}
+.parent .childe input {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.parent .childe2 input {
+  width: 300px;
+}
+#sectionId .send{
+    width: 100%;
+    padding-top: 40px;
+}
+#sectionId #messageId textarea{
+    border-radius: 10px;
+    width: 84%;
+    border: none;
+}
+#sectionId #messageId h5{
+    padding-left: 140px;
+}
+#sectionId .send button{
+    width: 84%;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px; 
+    transition: .3s;
+}
+#sectionId .send button .home-btn{
+    text-decoration: none;
+}
+#sectionId .send button:hover{
+	transform:scaleZ(2);
+    letter-spacing: 2px;
+}
+
+@media(max-width:620px){
+  .parent .childe input {
+    width: 300px;
+  }
+
+  #sectionId #messageId h5{
+    padding-left: 50px;
+}
+  
+}
+
+.cotainer{
+width: 100%;
+margin: auto;
+margin-top: 50px;
+}
+
+.cotainer h2{
+width: 100%;
+text-align: center;
+}
+.cotainer .box-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.cotainer .box-container .box{
+  background-color: #F0F0F0;
+  width: 300px;
+  position: relative;
+  margin-top: 100px;
+  margin-right: 100px;
+  border-radius: 0px 100px 0px 20px;
+}
+.cotainer .box-container .box .taitel{
+  height: 60px;
+  border-radius: 20px 30px 30px 0px;
+  background: #22C1B1;
+  display: flex;
+  align-items: center;
+  width: 250px;
+  position: absolute;
+  top: -58px;
+}
+.cotainer .box-container .box .taitel h3{
+  padding-left: 5px;
+}
+.cotainer .box-container .box img{
+  position: absolute;
+  right: -55px;
+  top: -80px;
+  border-radius: 50px;
+  margin: 5px;
+}
+
+.cotainer .box-container .box .paragraph{
+  width: 100%;
+  background-image: url(quote.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  
+}
+.cotainer .box-container .box .paragraph p{
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 250px;
+  padding-bottom: 10px;
+
+}
+
+span{
+  color: red;
+  display: none;
+}
